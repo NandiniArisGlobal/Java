@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+   
+
+   <bean id="e2"  class="demoMaven.demoMaven.Emp">
+   <property name="ename"  value="Nandini"></property>
+   <property name="id"  value="84"></property>
+   <property name="sal"  value="1000"></property>
+   <property name="address"  value="Bangalore Karnataka"></property>
+   </bean>
+
+<bean id="b2" class="demoMaven.demoMaven.Books">
+<constructor-arg name="publish" value="bhgaua"></constructor-arg>
+<constructor-arg name="id" value="6524"></constructor-arg>
+<constructor-arg name="price" value="7000"></constructor-arg>
+</bean>
+
+
+
+</beans>
